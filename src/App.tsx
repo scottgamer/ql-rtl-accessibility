@@ -1,10 +1,12 @@
 import React from "react";
+import UsersList from "./components/UsersList/UsersList";
+import UsersProvider from "./context/UsersProvider";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Testing Library &amp; Accessibility</h1>
-    </div>
+    <UsersProvider>
+      <UsersList />
+    </UsersProvider>
   );
 }
 
