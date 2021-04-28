@@ -1,5 +1,5 @@
 import { rest } from "msw";
-import { User } from "../models/User";
+import { User } from "../interfaces/User";
 
 const mockedUsers: User[] = [
   { id: 1, name: "Rich", username: "Rich" },
